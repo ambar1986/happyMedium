@@ -1,0 +1,130 @@
+body {
+    color: #EE746E;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+#heading {
+  background-image: url("Photos/photo-1464305795204-6f5bbfc7fb81.jpeg");
+  background-size: 100%;
+	height: 75vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.8;
+  margin-bottom: 2%;
+}
+h1 {
+  font-size: 40%;
+}
+
+#hrs {
+  background-color: #FFFFFF;
+  position: absolute;
+  padding: 1%;
+  bottom: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+#services {
+
+
+}
+
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#pastry {
+    height: 35vh;
+}
+
+.sline {
+  left: 50%;
+  display:inline;
+  height:1%;
+  width:10px;
+
+  margin:5px
+}
+
+#description {
+  color: #151515;
+  width: 40%;
+
+}
+
+#feature {
+  background-image: url("Photos/photo-1474045326708-cdc78c2487cb.jpeg");
+  background-size: 100%;
+  background-position: 40% 70%;
+  background-repeat: no-repeat;
+  height: 65vh;
+  opacity: 0.9;
+}
+
+#fod {
+  background-color: #FFFFFF;
+  position: absolute;
+  padding: 1%;
+  top: 112vh;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+#day {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 20%;
+
+padding-top: 10%;
+}
+#desc {
+
+}
+#rsv {
+  background-color: #FFFFFF;
+  position: absolute;
+  padding: 1%;
+  top: 175vh;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+#icons {
+  display: flex;
+  /* flex-direction: column; */
+  /* background-color: red; */
+  height: 40vh;
+  justify-content: space-evenly;
+  padding: 0 10% 0 10%;
+}
+
+figure {
+  width: fit-content;
+  position: relative;
+  text-align: center;
+}
+
+img {
+  height: 100%;
+}
+
+.type {
+  position: absolute;
+   bottom: 5%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+}
+
+footer {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
