@@ -57,11 +57,11 @@ a {
 }
 
 .sline {
-    width: 4%;
-    border: 0;
-    background-color:#EE746E;
-    height: 1px;
-    margin: 0;
+  width: 4%;
+  border: 0;
+  background-color:#EE746E;
+  height: 1px;
+  margin: 0;
 }
 
 #greyline {
@@ -209,5 +209,4 @@ footer {
   img {
        display: none;
   }
-}
 }
