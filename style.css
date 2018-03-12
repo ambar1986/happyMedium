@@ -161,6 +161,8 @@ figure {
   width: fit-content;
   position: relative;
   text-align: center;
+  margin: 0;
+  height: 90%;
 }
 
 img {
@@ -174,6 +176,7 @@ img {
   transform: translate(-50%, -50%);
   font-style: oblique;
   font-size: 15px;
+  margin: 0;
 }
 
 footer {
@@ -183,5 +186,8 @@ footer {
   justify-content: space-around;
   align-items: center;
   height: 15vh;
-  
+}
+
+#phone {
+  text-decoration: none;
 }
